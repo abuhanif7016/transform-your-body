@@ -20,7 +20,7 @@
 </head>
 <body>
     <header>
-        <nav class="bg-black backdrop-blur-md p-4 fixed top-0 left-0 w-full z-50">
+      <nav class="bg-black backdrop-blur-md p-4 fixed top-0 left-0 w-full z-50">
             <div class="flex flex-col lg:flex-row text-white lg:justify-between lg:items-center w-11/12 mx-auto">
                 <div class="cursor-pointer ">
                     <h1 class="flex lg:flex text-3xl font-bold text-center lg:text-left gap-3 text-yellow-500"><img src="image/logo_left.png" alt="logo_left" class="h-5 w-7 mt-2">Transform Your Body <img src="image/logo_right.png" alt="logo_right" class="h-5  w-7 mt-2"></h1>
@@ -31,14 +31,35 @@
                    <li><a href="#about" class="hover:text-yellow-400 transition">Services</a></li>
                    <li><a href="#skills" class="hover:text-yellow-400 transition">About</a></li>
                    <li><a href="#education" class="hover:text-yellow-400 transition">Contacts</a></li>
-                   <a href="#" class="border-none text-2xl bg-yellow-400 pr-2 pl-2 hover:text-yellow-700 transition">Join Us</a>
+                   <a href="#" class="border-none text-2xl bg-yellow-400 pr-2 pl-2 hover:text-black transition">Join Us</a>
                 </ul>
             </div>
-        </nav>
+      </nav>
 
-        <section class="bg-[url('image/banner.png')] bg-cover bg-no-repeat bg-center min-h-screen bg-black/70 bg-blend-overlay">
 
-        </section>
+      <section class="relative bg-[url('image/banner.png')] bg-cover bg-no-repeat bg-center min-h-screen bg-black/70 bg-blend-overlay">
+
+       <div class="absolute inset-0 bg-black/20"></div>
+
+        <div class="relative z-10 flex flex-col justify-center items-center lg:items-start text-center lg:text-left min-h-screen px-6 lg:px-20 lg:pb-20">
+        <h1 class="text-white text-4xl md:text-6xl font-bold mb-4 lg:bg-slate-400/10 lg:w-85 lg:h-33 lg:text-center lg:text-5xl lg:pt-4 lg:font-thin">
+          Transform <br class="hidden md:block"> Your Body
+        </h1>
+        <p class="text-gray-200/40 text-lg md:text-xl max-w-xl mb-7 lg:text-sm">
+          We are dedicated to helping you transform your <br> body and mind through the power of fitness.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-6 lg:text-xs text-sm lg:pt-14">
+          <a href="#" 
+          class="bg-yellow-500 text-black font-serif px-6 py-3 rounded shadow-lg hover:bg-yellow-600 transition duration-300">
+          Get Started
+          </a>
+          <a href="#" 
+          class="bg-transparent border border-yellow-500 text-yellow-500 font-serif px-6 py-3 rounded shadow-lg hover:bg-yellow-600 hover:text-black transition duration-300">
+          <i class="fa-solid fa-circle-play"></i> Watch Reviews
+          </a>
+        </div>
+      </section>
     </header>
 </body>
 </html>
